@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
 .header{
@@ -15,6 +16,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    
 }
 
 .header-menu a{
@@ -22,7 +24,7 @@
     line-height: 1.5;
     padding: 1rem;
     display: block;
-
+    
 }
 
 @media(max-width: 800px){
@@ -30,6 +32,7 @@
         flex-direction:row;
         gap: 1rem;
         padding: 1rem;
+
     }
 
     .header-menu a{
@@ -37,6 +40,6 @@
         border-radius: 1rem;
         font-size: 1rem;
     }
-
+    
 
 }
