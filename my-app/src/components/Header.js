@@ -1,8 +1,19 @@
 import React from 'react'
+import marca from '../img/marca.svg'
 
-const Header = () =>{
+function Header(){
     return(
-        <h1>teste</h1>
+        <header className="header">
+            <img src={marca} alt="lobo"/>
+            <nav>
+                <ul>
+                    <li><a href="#experiencia">experiência</a></li>
+                    <li><a href="#formacao">formação</a></li>
+                    <li><a href="#contato">contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
     );
 }
 
