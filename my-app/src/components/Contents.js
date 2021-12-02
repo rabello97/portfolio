@@ -4,7 +4,7 @@ import perfil from "../img/perfil.jpg";
 function Contents() {
   return (
     <React.Fragment>
-      <main className="introducao">
+      <main className="container introducao">
         <img src={perfil} alt="lobo cinza" />
         <div>
           <h1>
@@ -15,7 +15,7 @@ function Contents() {
         </div>
       </main>
 
-      <section class="experiencia" id="experiencia" aria-label="Experiência">
+      <section class="container experiencia" id="experiencia" aria-label="Experiência">
         <h2 class="subtitulo">Experiência</h2>
         <div>
           <p class="experiencia-texto">
