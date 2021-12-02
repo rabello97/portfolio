@@ -70,6 +70,19 @@ img{
         height: 10px;
         left: 0px;
     }
+   
+    .experiencia{
+        grid-template-columns: 1fr;
+        
+    }
+    .experiencia .subtitulo{
+        display: none;
+    }
+    .empresa-ano{
+        display: none;
+        
+    }
+
 }
 
 .subtitulo{
