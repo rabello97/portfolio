@@ -1,7 +1,9 @@
 @import url(./style/header.css);
+@import url(./style/contents.css);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Rubik&display=swap');
 
 * {
-  font-family: 'Fira Sans', Arial, sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   box-sizing: border-box;
   list-style: none;
   color: #141414;

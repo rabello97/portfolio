@@ -1,0 +1,64 @@
+.introducao{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.introducao h1{
+    font-size: 5.5rem;
+    line-height: 1.125;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.introducao h1::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url('../img/detalhe.svg') no-repeat center;
+    position: absolute;
+    left: -40px;
+    top: -15px;
+    z-index: -1; /*deixa o detalhe atrás*/
+}
+
+.introducao p{
+    font-size: 1.5rem;
+    color: #525252;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+@media(max-width: 1100px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media(max-width:550px){
+    .introducao{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .introducao h1{
+        font-size: 2rem;
+    }
+    .introducao img{
+        display: none;
+    }
+    .introducao h1::before{
+        width: 45px;
+        height: 10px;
+        left: 0px;
+    }
+}

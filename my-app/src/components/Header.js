@@ -6,7 +6,7 @@ function Header(){
         <header className="header">
             <img src={marca} alt="lobo"/>
             <nav>
-                <ul>
+                <ul className="header-menu">
                     <li><a href="#experiencia">experiência</a></li>
                     <li><a href="#formacao">formação</a></li>
                     <li><a href="#contato">contato</a></li>
