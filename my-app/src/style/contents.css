@@ -59,6 +59,7 @@ img{
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    
     .introducao h1{
         font-size: 2rem;
     }
@@ -83,6 +84,11 @@ img{
 
     .empresa-habilidades{
         padding-left: 2rem;
+    }
+  
+  
+    .subtitulo-black{
+        display: none;
     }
 
 }
@@ -249,4 +255,62 @@ img{
     position: absolute;
 
     left: -22px;
+}
+
+.cursos{
+    margin-bottom: 2rem;
+}
+
+.formacao-extra h3{
+    font-size: 1rem;
+    line-height: 1,4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.formacao-extra h3::before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+
+}
+
+.cursos h3::before{
+    background: url("../img/cursos.svg") no-repeat center center;
+
+}
+
+.idiomas h3::before{
+    background: url("../img/idiomas.svg") no-repeat center center;
+
+}
+
+.formacao-extra li{
+    font-size: 1rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.formacao-extra span{
+    color: #8f8f8f
+}
+
+.cursos li{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media(max-width:550px){
+    .formacao-container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
