@@ -178,11 +178,11 @@ img{
   }
 
   .subtitulo-black{
-    font-size: 12rem;
+    font-size: 11rem;
     word-break: break-all;
     line-height: 1;
     text-transform: uppercase;
-    max-width: 4ch;
+    max-width: 5ch;
     color: #000;
 
 }
@@ -199,7 +199,20 @@ img{
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 5rem;
+    position: relative;
     
+}
+
+.formacao-container::after{
+    content: '';
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url('../img/detalhe.svg') no-repeat center;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+
 }
 
 .formacao-texto{
@@ -312,5 +325,8 @@ img{
     .formacao-container{
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .formacao-extra{
+        padding-left: 1rem;
     }
 }
